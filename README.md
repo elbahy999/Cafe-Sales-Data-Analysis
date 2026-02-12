@@ -1,4 +1,6 @@
-# ☕ Intelligent Cafe Sales Analysis & Dashboard
+# ☕ Cafe Sales Analysis & Dashboard
+
+![Cafe Sales Dashboard](dashboard/2e326ef0-1.png)
 
 ---
 
