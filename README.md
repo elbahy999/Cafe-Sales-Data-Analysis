@@ -66,15 +66,15 @@ The project utilizes a custom retail dataset containing transaction details.
 
 ### Input Features (Raw)
 
-| Feature | Description | Issue Type |
-| --- | --- | --- |
-| Transaction ID | Unique identifier | - |
-| Item | Product sold (Coffee, Cake, etc.) | - |
-| Quantity | Number of items | - |
-| Price Per Unit | Cost per item | Contains "ERROR" strings |
-| Total Spent | Total transaction value | Calculation errors |
-| Payment Method | Cash, Card, Digital Wallet | Missing/Null values |
-| Location | Store branch (In-store/Takeaway) | "UNKNOWN" labels |
+| Feature | Description |
+| --- | --- |
+| Transaction ID | Unique identifier |
+| Item | Product sold (Coffee, Cake, etc.) |
+| Quantity | Number of items |
+| Price Per Unit | Cost per item |
+| Total Spent | Total transaction value | 
+| Payment Method | Cash, Card, Digital Wallet | 
+| Location | Store branch (In-store/Takeaway) | 
 
 ## 🏆 Cleaning Performance
 
@@ -107,26 +107,28 @@ cafe-sales-analysis/
 │
 ├── data/
 │   ├── raw/
-│   │   └── dirty_cafe_sales.csv        # Original dataset with errors
+│   │   └── dirty_cafe_sales.csv        
 │   └── processed/
-│       └── cleaned_cafe_sales.csv      # Ready for Power BI
+│       └── cleaned_cafe_sales.csv     
 │
 ├── notebooks/
-│   └── proj.ipynb                      # Data cleaning & EDA logic
+│   └── proj.ipynb                    
 │
 ├── dashboard/
-│   ├── hey.pbix                        # Power BI Project File
-│   └── dashboard_preview.png           # 2e326ef0-1.png snapshot
+│   ├── hey.pbix                 
+│   └── dashboard_preview.png        
 │
-├── requirements.txt                    # Python dependencies
-├── README.md                           # Project documentation
-└── LICENSE                             # MIT License
+├── requirements.txt                   
+├── README.md                     
+└── LICENSE                            
 
 ```
 
 ## 👥 Team
 
-* [Your Name] - *Data Engineering & Visualization*
+* Ziad Elbahy
+* Tasnim Adel
+
 
 ## 🚀 Installation
 
@@ -178,7 +180,6 @@ jupyter notebook
 * **Payment Preferences**: Do customers prefer Cash or Digital Wallets?
 
 
-
 ## 🔧 Data Logic
 
 The cleaning process includes:
@@ -199,9 +200,6 @@ The cleaning process includes:
 * *Spring*: Mar, Apr, May
 * *Summer*: Jun, Jul, Aug
 * *Fall*: Sep, Oct, Nov
-
-
-
 
 
 ```python
@@ -245,5 +243,3 @@ This project is licensed under the MIT License.
 ---
 
 ⭐ If you found this project helpful, please consider giving it a star!
-
-**Made with ❤️ for Data Analytics**
